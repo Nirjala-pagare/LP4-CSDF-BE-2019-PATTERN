@@ -1,0 +1,56 @@
+============================================================
+DIGITAL IMAGE FORENSIC REPORT
+============================================================
+Generated on: 2026-11-04 00:35:37
+
+1. FILE INFORMATION
+File name: sample.png
+Full path: D:\Downloads\LP4_MiniProjects\LP4_MiniProjects\CSDF\sample.png
+Size: 25453290 bytes
+Created/metadata-change time: 2026-11-04 00:11:58
+Last modified: 2026-11-04 00:12:06
+
+2. IMAGE PROPERTIES
+Format: PNG
+Detected signature: PNG
+Mode: RGBA
+Dimensions: 3000 x 4000
+Number of frames: 1
+
+3. HASH VALUES
+MD5: 9b576679db4aaba76727441753ad5637
+SHA1: c94c1551e9c37327275db85afb74d892d7c2799a
+SHA256_before_analysis: b5d76c126b25e343867029ef016a177b568e5cb872137a4d474f899d1772031d
+SHA256_after_analysis: b5d76c126b25e343867029ef016a177b568e5cb872137a4d474f899d1772031d
+Integrity verification: PASSED
+
+4. FILE SIGNATURE CHECK
+Extension says: PNG
+Detected type: PNG
+Result: MATCH
+
+5. TRAILING DATA CHECK
+Not applicable: file is not JPEG.
+
+6. EXIF AND ADDITIONAL IMAGE METADATA
+Image Info - srgb: 0
+Image Info - gamma: 0.45455
+Image Info - dpi: (71.9836, 71.9836)
+Image Info - Source: Redmi 13 5G
+Image Info - CreationTime: 2026:06:13 17:23:59
+Image Info - xmp: <?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"><tiff:Make>Xiaomi</tiff:Make>...
+Image Info - XML:com.adobe.xmp: <?xpacket begin='﻿' id='W5M0MpCehiHzreSzNTczkc9d'?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/"><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"><rdf:Description rdf:about="uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b" xmlns:tiff="http://ns.adobe.com/tiff/1.0/"><tiff:Make>Xiaomi</tiff:Make>...
+Image Info - Creation Time: 2026:06:13 17:23:59
+
+7. ERROR LEVEL ANALYSIS
+ELA is currently performed only for JPEG images.
+
+8. FORENSIC LIMITATIONS
+- ELA is an indicator and cannot independently prove image manipulation.
+- Missing metadata does not prove that an image is fake.
+- Pillow exposes only metadata it recognizes; it is not a complete metadata parser.
+- File timestamps can be changed and are not conclusive evidence.
+
+No single result confirms or disproves image tampering.

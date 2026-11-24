@@ -1,0 +1,70 @@
+============================================================
+DIGITAL IMAGE FORENSIC REPORT
+============================================================
+Generated on: 2026-11-04 00:33:27
+
+1. FILE INFORMATION
+File name: original.jpg
+Full path: D:\Downloads\LP4_MiniProjects\LP4_MiniProjects\CSDF\original.jpg
+Size: 7532555 bytes
+Created/metadata-change time: 2026-11-04 00:01:48
+Last modified: 2026-06-13 17:23:59
+
+2. IMAGE PROPERTIES
+Format: JPEG
+Detected signature: JPEG
+Mode: RGB
+Dimensions: 3000 x 4000
+Number of frames: 1
+
+3. HASH VALUES
+MD5: 354ba683405326ba7a4956608086c6d5
+SHA1: 09cc8789a2bbc1dc79799b2a237cc6d4d5ca5828
+SHA256_before_analysis: a49353c9bc498badbc1a754d581e2b0a6afe15eecbc966481ee766f9ec4ac0a6
+SHA256_after_analysis: a49353c9bc498badbc1a754d581e2b0a6afe15eecbc966481ee766f9ec4ac0a6
+Integrity verification: PASSED
+
+4. FILE SIGNATURE CHECK
+Extension says: JPEG
+Detected type: JPEG
+Result: MATCH
+
+5. TRAILING DATA CHECK
+No data appended after the JPEG end marker.
+
+6. EXIF AND ADDITIONAL IMAGE METADATA
+EXIF - ImageWidth: 3000
+EXIF - 39424: Redmi 13 5G
+EXIF - ImageLength: 4000
+EXIF - 34979: {}
+EXIF - GPSInfo: 1196
+EXIF - 34970: Binary data (1 bytes)
+EXIF - ResolutionUnit: 2
+EXIF - ExifOffset: 405
+EXIF - Make: Xiaomi
+EXIF - Model: Redmi 13 5G
+EXIF - Orientation: 0
+EXIF - DateTime: 2026:06:13 17:23:59
+EXIF - YCbCrPositioning: 1
+EXIF - 39321: {"mirror":false,"sensorType":"rear","Hdr":"auto","OpMode":36869,"smallPicture":false,"AIScene":0,"filterId":66048,"zoomMultiple":1}
+EXIF - XResolution: 72.0
+EXIF - YResolution: 72.0
+GPS Coordinates: 20.564686, 74.257364
+Image Info - exif: Binary data (18775 bytes)
+Image Info - dpi: (72.0, 72.0)
+
+7. ERROR LEVEL ANALYSIS
+Maximum error difference: 33
+Mean grayscale error: 2.4976
+Pixels above threshold: 0.0%
+Preliminary interpretation: LOW INDICATOR: few pixels crossed the threshold. This does not prove the image is original.
+ELA image saved as: D:/Downloads/LP4_MiniProjects/LP4_MiniProjects/CSDF/original_ela.png
+ELA depends on compression history and settings; it cannot prove manipulation.
+
+8. FORENSIC LIMITATIONS
+- ELA is an indicator and cannot independently prove image manipulation.
+- Missing metadata does not prove that an image is fake.
+- Pillow exposes only metadata it recognizes; it is not a complete metadata parser.
+- File timestamps can be changed and are not conclusive evidence.
+
+No single result confirms or disproves image tampering.
